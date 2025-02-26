@@ -8,7 +8,7 @@ import React from 'react'
 const page = () => {
   return (
     <main>
-        <Navbar/>
+        {/* <Navbar/> */}
         <HeroSection/>
         <Cities/>
         <FeaturedHotels/>

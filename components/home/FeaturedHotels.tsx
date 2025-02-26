@@ -16,7 +16,7 @@ const FeaturedHotels = () => {
 
       <div className='flex items-center justify-center mt-10'>
 
-        <Button variant='ghost'>View All Hotels</Button>
+        <Button>View All Hotels</Button>
 
       </div>
     </section>
