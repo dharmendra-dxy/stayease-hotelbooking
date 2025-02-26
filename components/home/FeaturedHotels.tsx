@@ -1,5 +1,6 @@
 import React from 'react'
 import HotelCard from '../HotelCard'
+import { Button } from '../ui/button'
 
 const FeaturedHotels = () => {
   return (
@@ -11,6 +12,12 @@ const FeaturedHotels = () => {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-12'>
         <HotelCard/>
+      </div>
+
+      <div className='flex items-center justify-center mt-10'>
+
+        <Button variant='ghost'>View All Hotels</Button>
+
       </div>
     </section>
   )

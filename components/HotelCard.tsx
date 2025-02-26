@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from './ui/card'
 import Image from 'next/image'
-import { Bookmark, IndianRupee, MapPin, Share, Share2, Star } from 'lucide-react'
+import { Bookmark, IndianRupee, MapPin, Share2 } from 'lucide-react'
 import { Button } from './ui/button'
 
 const HotelCard = () => {
@@ -17,7 +17,7 @@ const HotelCard = () => {
             />
         </div>
 
-        <div className='px-4 mb-6'>
+        <div className='px-4 mb-4'>
             
             <div className='flex items-center justify-between'>
                 <p className='text-xl font-bold '>
