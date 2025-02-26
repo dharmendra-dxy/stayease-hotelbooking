@@ -11,13 +11,13 @@ const Cities = () => {
   ]
 
   return (
-    <section className='padding-x padding-y container w-full mx-auto mt-12'>
-      <div>
+    <section className='mt-12 bg-gray-200 dark:bg-gray-800'>
+      <div className='padding-x padding-y container w-full mx-auto'>
         <p className='text-center text-xl font-semibold'>
           We have Hotels located in every cities across India
         </p>
 
-        <div className='flex items-center justify-evenly flex-wrap mt-16 gap-2'>
+        <div className='flex items-center justify-evenly flex-wrap mt-16 gap-4'>
           {
             imageData.map((item) => (
               <CitiesCard
@@ -51,9 +51,9 @@ const CitiesCard:React.FC<CitiesCardProps> = ({src,text}) => {
         alt='cities'
         width={60}
         height={60}
-        className=''
+        className='pt-2'
       />
-      <p className='text-white mt-4 text-center'>{text}</p>
+      <p className='text-white mt-2 text-center'>{text}</p>
 
     </div>
   )
